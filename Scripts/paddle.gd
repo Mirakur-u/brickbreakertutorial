@@ -53,3 +53,5 @@ func on_ball_lost():
 	direction = Vector2.ZERO
 	
 	
+func get_width():
+	return collision_shape_2d.shape.get_rect().size.x
